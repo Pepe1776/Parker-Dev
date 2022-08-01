@@ -68,6 +68,7 @@ setTimeout(() => {
 
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,700;0,900;1,200;1,700&display=swap');
 
 .hero-img {
@@ -127,6 +128,7 @@ setTimeout(() => {
     font-size: 1.5rem;
     height: 110%;
     justify-content: center;
+    top: -50px;
     
   }
 }
