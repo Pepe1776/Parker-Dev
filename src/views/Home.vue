@@ -100,6 +100,18 @@ setTimeout(() => {
   z-index: 2;
 
 }
+.pop2 {
+  background-color: rgba(17, 137, 15, 0.206);
+}
+.pop3 {
+  background-color: rgba(137, 129, 15, 0.206);
+}
+.pop4 {
+  background-color: rgba(121, 15, 137, 0.206);
+}
+.pop5 {
+  background-color: rgba(137, 15, 15, 0.206);
+}
 
 @media screen and (max-width: 768px) {
   .hero-img {
