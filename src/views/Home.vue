@@ -42,7 +42,9 @@ setTimeout(() => {
 
 <template>
   <div class="main-cont">
-    <img class="hero-img" src="/Satoshi-logo-bw.png" alt="satoshi">
+    <transition name="slide-fade">
+      <img class="hero-img" src="/Satoshi-logo-bw.png" alt="satoshi">
+    </transition>
     <transition name="slide-fade">
       <div v-show="pop1" class="pop1">Custom Built Website and Apps</div>
     </transition>
@@ -101,15 +103,19 @@ setTimeout(() => {
 
 }
 .pop2 {
+  top: -10%;
   background-color: rgba(17, 137, 15, 0.206);
 }
 .pop3 {
+  top: -20%;
   background-color: rgba(137, 129, 15, 0.206);
 }
 .pop4 {
+  top: -30%;
   background-color: rgba(121, 15, 137, 0.206);
 }
 .pop5 {
+  top: -40%;
   background-color: rgba(137, 15, 15, 0.206);
 }
 
