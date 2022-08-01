@@ -1,17 +1,134 @@
 <script setup>
+import { ref } from 'vue';
+
+const pop1 = ref(false);
+const pop2 = ref(false);
+const pop3 = ref(false);
+const pop4 = ref(false);
+const pop5 = ref(false);
+
+setTimeout(() => {
+  pop1.value = true;
+}, 1000);
+setTimeout(() => {
+  pop1.value = false;
+}, 3000);
+setTimeout(() => {
+  pop2.value = true;
+}, 4000);
+setTimeout(() => {
+  pop2.value = false;
+}, 7000);
+setTimeout(() => {
+  pop3.value = true;
+}, 8000);
+setTimeout(() => {
+  pop3.value = false;
+}, 11000);
+setTimeout(() => {
+  pop4.value = true;
+}, 12000);
+setTimeout(() => {
+  pop4.value = false;
+}, 15000);
+setTimeout(() => {
+  pop5.value = true;
+}, 16000);
+setTimeout(() => {
+  pop5.value = false;
+}, 19000);
+
 </script>
 
 <template>
-  <img class="hero-img" src="../../public/Satoshi-logo-bw.png" alt="satoshi">
+  <div class="main-cont">
+    <img class="hero-img" src="/Satoshi-logo-bw.png" alt="satoshi">
+    <transition name="slide-fade">
+      <div v-show="pop1" class="pop1">Custom Built Website and Apps</div>
+    </transition>
+    <transition name="slide-fade">
+      <div v-show="pop2" class="pop2">User Interface designs and Logos</div>
+    </transition>
+    <transition name="slide-fade">
+      <div v-show="pop3" class="pop3">Home Automation Programming</div>
+    </transition>
+    <transition name="slide-fade">
+      <div v-show="pop4" class="pop4">Digital Signage and Content</div>
+    </transition>
+    <transition name="slide-fade">
+      <div v-show="pop5" class="pop5">Custom Built Drivers (Control4)</div>
+    </transition>
+  </div>
 
 </template>
 
 <style>
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,700;0,900;1,200;1,700&display=swap');
+
 .hero-img {
-  width: 100vw;
-  height: 100vh;
+  width: 70vw;
+  height: auto;
   object-fit: fill;
   opacity: 0.1;
+}
+.main-cont {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pop1, .pop2, .pop3, .pop4, .pop5 {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 8rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(15, 102, 137, 0.206);
+  opacity: 0.9;
+  z-index: 2;
+
+}
+
+@media screen and (max-width: 768px) {
+  .hero-img {
+    width: 100vw;
+  }
+  .pop1, .pop2, .pop3, .pop4, .pop5 {
+    font-size: 1.5rem;
+    height: 110%;
+    justify-content: center;
+    
+  }
+}
+  
+/*
+  Enter and leave animations can use different
+  durations and timing functions.
+*/
+.slide-fade-enter-active {
+  transition: all 0.6s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 1s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(80px);
+  transform: translateY(40px);
+  opacity: 0;
 }
 </style>
