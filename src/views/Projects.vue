@@ -80,11 +80,11 @@ const icon4 = ref(false);
 
 }
  .rec {
- left: 25%
+ left: 23%
  }
 
  .nft {
-    left: 38%;
+    left: 36%;
  }
  .par {
     left: 53%;
