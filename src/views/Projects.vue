@@ -101,22 +101,22 @@ const icon4 = ref(false);
     }
     .label {
         font-size: 1.5rem;
-        left: 38%;
+        left: 35%;
     }
     .rec {
-        top: 25%;
+        top: 23%;
     }
     .nft {
-        top: 43%;
-        left: 39%;
+        top: 45%;
+        
     }
     .par {
-        top: 60%;
-        left: 39%;
+        top: 67%;
+    
     }
     .anc {
-        top: 78%;
-        left: 37%;
+        top: 88%;
+       
     }
     
  }
