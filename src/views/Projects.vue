@@ -53,6 +53,7 @@ const icon4 = ref(false);
     margin-top: -15%;
 }
 .btn {
+    z-index: 4;
     opacity: 0.7;
     transition: all 0.3s ease-in-out;
 }
@@ -62,7 +63,7 @@ const icon4 = ref(false);
 }
 .hover {
     position: absolute;
-    top: 6%;
+    top: 63%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.8;
