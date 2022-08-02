@@ -95,7 +95,7 @@ const icon4 = ref(false);
  @media screen and (max-width: 768px) {
     .main-cont {
         flex-direction: column;
-        gap: 7%;
+        gap: 6%;
     }
     .hover {
         display: none;
