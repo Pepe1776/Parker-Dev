@@ -75,7 +75,7 @@ const icon4 = ref(false);
     font-family: 'Titillium Web', sans-serif;
     font-size: 2rem;
     position: absolute;
-    top: 32%;
+    top: 33%;
     height: auto;
 
 }
@@ -101,7 +101,7 @@ const icon4 = ref(false);
     }
     .label {
         font-size: 1.5rem;
-        left: 40%;
+        left: 38%;
     }
     .rec {
         top: 25%;
