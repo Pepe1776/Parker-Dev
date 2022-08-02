@@ -105,18 +105,20 @@ const icon4 = ref(false);
         left: 35%;
     }
     .rec {
-        top: 23%;
+        top: 27%;
     }
     .nft {
-        top: 45%;
+        top: 48%;
         
     }
     .par {
-        top: 67%;
+        top: 68%;
+        left: 34%;
     
     }
     .anc {
         top: 88%;
+        left: 34%;
        
     }
     
