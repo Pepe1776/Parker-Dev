@@ -62,7 +62,7 @@ const icon4 = ref(false);
 }
 .hover {
     position: absolute;
-    top: 62%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.8;
@@ -75,6 +75,7 @@ const icon4 = ref(false);
     font-size: 2rem;
     position: absolute;
     top: 32%;
+    height: auto;
 
 }
  .rec {
@@ -89,6 +90,34 @@ const icon4 = ref(false);
  }
  .anc {
     left: 67%;
+ }
+ @media screen and (max-width: 768px) {
+    .main-cont {
+        flex-direction: column;
+    }
+    .hover {
+        display: none;
+    }
+    .label {
+        font-size: 1.5rem;
+        left: 40%;
+    }
+    .rec {
+        top: 25%;
+    }
+    .nft {
+        top: 43%;
+        left: 39%;
+    }
+    .par {
+        top: 60%;
+        left: 39%;
+    }
+    .anc {
+        top: 78%;
+        left: 37%;
+    }
+    
  }
  
  .slide-fade-enter-active {
