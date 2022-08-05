@@ -15,28 +15,28 @@ setTimeout(() => {
 }, 3000);
 setTimeout(() => {
   pop2.value = true;
-}, 4000);
+}, 2000);
 setTimeout(() => {
   pop2.value = false;
-}, 7000);
+}, 5000);
 setTimeout(() => {
   pop3.value = true;
-}, 8000);
+}, 3000);
 setTimeout(() => {
   pop3.value = false;
-}, 11000);
+}, 6000);
 setTimeout(() => {
   pop4.value = true;
-}, 12000);
+}, 4000);
 setTimeout(() => {
   pop4.value = false;
-}, 15000);
+}, 7000);
 setTimeout(() => {
   pop5.value = true;
-}, 16000);
+}, 5000);
 setTimeout(() => {
   pop5.value = false;
-}, 19000);
+}, 8000);
 
 </script>
 
@@ -87,7 +87,7 @@ setTimeout(() => {
 }
 .pop1, .pop2, .pop3, .pop4, .pop5 {
   position: absolute;
-  top: -50px;
+  top: 0px;
   left: 0;
   width: 100%;
   height: 150%;
