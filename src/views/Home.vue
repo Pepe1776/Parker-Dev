@@ -129,7 +129,7 @@ setTimeout(() => {
   }
   .pop1, .pop2, .pop3, .pop4, .pop5 {
     font-size: 1.8rem;
-    height: 110%;
+    height: 160%;
     justify-content: center;
 
     
