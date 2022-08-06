@@ -78,6 +78,7 @@ setTimeout(() => {
   opacity: 0.1;
 }
 .main-cont {
+  height: 100vh;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   font-style: italic;
