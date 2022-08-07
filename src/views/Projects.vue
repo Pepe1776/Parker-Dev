@@ -5,18 +5,18 @@
         <h3 class="label par">Portfolio Page</h3>
         <h3 class="label anc">Restaurant Page</h3>
         <a @mouseenter="icon1 = true" @mouseleave="icon1 = false" href="https://bookofrecipes.netlify.app/" class="btn">
-            <Icon style="font-size: 6rem;" icon="emojione-v1:cooking" />
+            <Icon style="font-size: 7rem;" icon="emojione-v1:cooking" />
         </a>
 
         <a @mouseenter="icon2 = true" @mouseleave="icon2 = false" href="https://gratitude-nft.web.app/landing"
             class="btn">
-            <Icon style="font-size: 6rem;" icon="logos:metamask-icon" />
+            <Icon style="font-size: 7rem;" icon="logos:metamask-icon" />
         </a>
         <a @mouseenter="icon3 = true" @mouseleave="icon3 = false" href="https://jparker.netlify.app/" class="btn">
-            <Icon style="font-size: 6rem;" icon="logos-vue" />
+            <Icon style="font-size: 7rem;" icon="logos-vue" />
         </a>
         <a @mouseenter="icon4 = true" @mouseleave="icon4 = false" href="https://ancestral.vercel.app/" class="btn">
-            <Icon style="font-size: 6rem;" icon="emojione-v1:bridge-at-night" />
+            <Icon style="font-size: 7rem;" icon="emojione-v1:bridge-at-night" />
         </a>
         <Transition name="slide-fade">
             <img v-show="icon1" src="/rec.jpg" class="hover" />
@@ -78,6 +78,7 @@ const icon4 = ref(false);
     position: absolute;
     top: 33%;
     height: auto;
+    drop-shadow: 0px 0px 20px rgb(255, 255, 255);
 
 }
  .rec {
