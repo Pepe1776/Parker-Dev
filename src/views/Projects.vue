@@ -114,12 +114,12 @@ const icon4 = ref(false);
         left: 33%;
     }
     .par {
-        top: 69%;
+        top: 72%;
         left: 33%;
     
     }
     .anc {
-        top: 89%;
+        top: 93%;
         left: 31%;
        
     }

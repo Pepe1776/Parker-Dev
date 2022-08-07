@@ -52,4 +52,9 @@ import { Icon } from '@iconify/vue';
   .btn4 {
     top: 75%;
   }
+  @media screen and (max-width: 768px) {
+    .title {
+      font-size: 3rem;
+    }
+  }
 </style>
