@@ -86,10 +86,10 @@ const icon4 = ref(false);
  }
 
  .nft {
-    left: 34%;
+    left: 35%;
  }
  .par {
-    left: 51%;
+    left: 52%;
  }
  .anc {
     left: 68%;
