@@ -92,7 +92,7 @@ const icon4 = ref(false);
     left: 52%;
  }
  .anc {
-    left: 68%;
+    left: 67%;
  }
  @media screen and (max-width: 768px) {
     .main-cont {

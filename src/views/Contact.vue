@@ -26,29 +26,30 @@ import { Icon } from '@iconify/vue';
 
  .title {
       font-family: 'Titillium Web', sans-serif;
-      font-size: 3rem;
+      font-size: 4rem;
       display: flex;
       justify-content: center;
       align-items: center;
       opacity: 0.7;
+      margin-top: 3%;
  }
   .btn {
         
         z-index: 4;
         position: absolute;
-        top: 20%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
         opacity: 0.7;
         transition: all 0.3s ease-in-out;
   }
   .btn2 {
-    top: 35%;
+    top: 45%;
   }
   .btn3 {
-    top: 50%;
+    top: 60%;
   }
   .btn4 {
-    top: 65%;
+    top: 75%;
   }
 </style>
