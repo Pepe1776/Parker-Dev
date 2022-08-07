@@ -76,23 +76,23 @@ const icon4 = ref(false);
     font-family: 'Titillium Web', sans-serif;
     font-size: 2.5rem;
     position: absolute;
-    top: 33%;
+    top: 31%;
     height: auto;
     drop-shadow: 0px 0px 20px rgb(255, 255, 255);
 
 }
  .rec {
- left: 23%
+ left: 20%
  }
 
  .nft {
-    left: 36%;
+    left: 34%;
  }
  .par {
-    left: 53%;
+    left: 51%;
  }
  .anc {
-    left: 67%;
+    left: 68%;
  }
  @media screen and (max-width: 768px) {
     .main-cont {
