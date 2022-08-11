@@ -160,7 +160,7 @@ setTimeout(() => {
     justify-content: center;
   }
   .pop6 {
-    width: 150%;
+    width: 150vw;
     border-radius: 0%;
 
   }
