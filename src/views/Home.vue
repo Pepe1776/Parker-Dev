@@ -6,9 +6,13 @@ const pop2 = ref(false);
 const pop3 = ref(false);
 const pop4 = ref(false);
 const pop5 = ref(false);
+const pop6 = ref(false);
+const pop7 = ref(false);
 
 setTimeout(() => {
+  pop7.value = false;
   pop1.value = true;
+  pop6.value = true;
 }, 1000);
 setTimeout(() => {
   pop1.value = false;
@@ -18,6 +22,8 @@ setTimeout(() => {
 }, 2000);
 setTimeout(() => {
   pop2.value = false;
+  pop6.value = false;
+  pop7.value = true;
 }, 5000);
 setTimeout(() => {
   pop3.value = true;
@@ -43,7 +49,7 @@ setTimeout(() => {
 <template>
   <div class="main-cont">
     <transition name="slide-fade">
-      <img class="hero-img" src="/Satoshi-logo-bw.png" alt="satoshi">
+      <img v-show="pop7" class="hero-img" src="/Satoshi-logo-bw.png" alt="satoshi">
     </transition>
     <transition name="slide-fade">
       <div v-show="pop1" class="pop1">Custom Built Website and Apps</div>
@@ -59,6 +65,9 @@ setTimeout(() => {
     </transition>
     <transition name="slide-fade">
       <div v-show="pop5" class="pop5">Custom Built Drivers (Control4)</div>
+    </transition>
+    <transition name="slide-fade">
+      <img v-show="pop6" class="pop6" src="/portrait.png" />
     </transition>
   </div>
 
@@ -121,6 +130,20 @@ setTimeout(() => {
 .pop5 {
   top: -40%;
   background-color: rgba(137, 15, 15, 0.206);
+}
+.pop6 {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 768px) {
