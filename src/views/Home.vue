@@ -153,11 +153,14 @@ setTimeout(() => {
     height: 100vh;
     margin-top: -20%;
   }
+
   .pop1, .pop2, .pop3, .pop4, .pop5 {
     font-size: 1.8rem;
     height: 160%;
     justify-content: center;
-
+  }
+  .pop6 {
+    width: 100%;
     
   }
 }
