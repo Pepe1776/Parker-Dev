@@ -8,6 +8,7 @@ const pop4 = ref(false);
 const pop5 = ref(false);
 const pop6 = ref(false);
 const pop7 = ref(false);
+const pop8 = ref(false);
 
 setTimeout(() => {
   pop7.value = false;
@@ -42,6 +43,7 @@ setTimeout(() => {
 }, 5000);
 setTimeout(() => {
   pop5.value = false;
+  pop8.value = true;
 }, 8000);
 
 </script>
@@ -69,11 +71,16 @@ setTimeout(() => {
     <transition name="slide-fade">
       <img v-show="pop6" class="pop6" src="/portrait.png" />
     </transition>
+    <transition name="slide-fade">
+      <router-link to="contact" v-show="pop8" class="btn" src="/portrait.png">Work With Me!</router-link>
+    </transition>
   </div>
 
 </template>
 
-<style>
+<style scoped>
+
+
 
 
 
@@ -144,6 +151,33 @@ setTimeout(() => {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
+}
+.btn {
+  width: 15%;
+  border-radius: 3%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid #000;
+  z-index: 5;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: italic;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: rgb(39, 34, 34);
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
