@@ -162,14 +162,14 @@ setTimeout(() => {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 80%;
-  left: 50%;
+  top: 75%;
+  left: 53%;
   transform: translate(-50%, -50%);
   background-color: #fff;
   color: #000;
   font-size: 2rem;
   font-weight: bold;
-  border: 2px solid #000;
+  box-shadow: 0px 0px 10px rgb(152, 151, 151);
   z-index: 5;
   font-family: 'Titillium Web', sans-serif;
   font-style: italic;
