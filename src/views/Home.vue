@@ -196,6 +196,7 @@ setTimeout(() => {
   .pop6 {
     width: 150vw;
     object-fit: none;
+    border-radius: 0%;
 
   }
   .btn {
