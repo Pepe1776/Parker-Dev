@@ -1,5 +1,5 @@
 <template>
-    <div class="main-cont">
+    <div class="main-cont" v-scroll-lock="open">
         <a @mouseenter="icon1 = true" @mouseleave="icon1 = false" href="https://bookofrecipes.netlify.app/" class="btn">
             <div class="card">
 
@@ -58,6 +58,14 @@
 <script setup>
 import { Icon } from '@iconify/vue';
 import { ref } from 'vue';
+import { enableBodyScroll } from 'body-scroll-lock';
+
+const main2 = document.querySelector('.main-cont');
+const options = {
+    reserveScrollBarGap: true,
+};
+
+enableBodyScroll(main2, options);
 
 const icon1 = ref(false);
 const icon2 = ref(false);
