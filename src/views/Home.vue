@@ -1,5 +1,14 @@
 <script setup>
 import { ref } from 'vue';
+import { disableBodyScroll } from 'body-scroll-lock';
+
+const options = {
+  reserveScrollBarGap: true,
+};
+const main = document.querySelector('main');
+disableBodyScroll(main, options);
+
+
 
 const pop1 = ref(false);
 const pop2 = ref(false);
@@ -46,10 +55,11 @@ setTimeout(() => {
   pop8.value = true;
 }, 8000);
 
+
 </script>
 
 <template>
-  <div class="main-cont">
+  <div class="main-cont" v-scroll-lock="closed">
     <transition name="slide-fade">
       <img v-show="pop7" class="hero-img" src="/Satoshi-logo-bw.png" alt="satoshi">
     </transition>
@@ -87,6 +97,10 @@ setTimeout(() => {
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,700;0,900;1,200;1,700&display=swap');
 
+* {
+  box-sizing: border-box;
+  scroll: none;
+}
 .hero-img {
   width: 100vw;
   height: auto;
@@ -103,6 +117,7 @@ setTimeout(() => {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 11;
 }
 .pop1, .pop2, .pop3, .pop4, .pop5 {
   position: absolute;
