@@ -184,7 +184,7 @@ setTimeout(() => {
   color: #000;
   font-size: 2rem;
   font-weight: bold;
-  box-shadow: 0px 0px 10px rgb(152, 151, 151);
+  box-shadow: 0px 0px 10px rgba(152, 151, 151, 0.277);
   z-index: 5;
   font-family: 'Titillium Web', sans-serif;
   font-style: italic;
