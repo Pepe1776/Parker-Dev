@@ -1,23 +1,46 @@
 <template>
     <div class="main-cont">
-        <h3 class="label rec">Recipe App</h3>
-        <h3 class="label nft">Hackathon Nft</h3>
-        <h3 class="label par">Portfolio Page</h3>
-        <h3 class="label anc">Restaurant Page</h3>
         <a @mouseenter="icon1 = true" @mouseleave="icon1 = false" href="https://bookofrecipes.netlify.app/" class="btn">
-            <Icon style="font-size: 7rem;" icon="emojione-v1:cooking" />
-        </a>
+            <div class="card">
 
+                <Icon style="font-size: 7rem;" icon="emojione-v1:cooking" />
+
+                <h3 class="label rec">Recipe App</h3>
+            </div>
+        </a>
         <a @mouseenter="icon2 = true" @mouseleave="icon2 = false" href="https://gratitude-nft.web.app/landing"
             class="btn">
-            <Icon style="font-size: 7rem;" icon="logos:metamask-icon" />
+            <div class="card">
+
+
+                <Icon style="font-size: 7rem;" icon="logos:metamask-icon" />
+
+                <h3 class="label nft">Hackathon Nft</h3>
+            </div>
         </a>
         <a @mouseenter="icon3 = true" @mouseleave="icon3 = false" href="https://jparker.netlify.app/" class="btn">
-            <Icon style="font-size: 7rem;" icon="logos-vue" />
+            <div class="card">
+
+                <Icon style="font-size: 7rem;" icon="logos-vue" />
+
+                <h3 class="label par">Portfolio Page</h3>
+            </div>
         </a>
         <a @mouseenter="icon4 = true" @mouseleave="icon4 = false" href="https://ancestral.vercel.app/" class="btn">
+        <div class="card">
+
+
             <Icon style="font-size: 7rem;" icon="emojione-v1:bridge-at-night" />
+
+            <h3 class="label anc">Restaurant Page</h3>
+        </div>
         </a>
+
+
+
+
+
+
         <Transition name="slide-fade">
             <img v-show="icon1" src="/rec.jpg" class="hover" />
         </Transition>
@@ -47,9 +70,8 @@ const icon4 = ref(false);
 .main-cont {
     display: flex;
     flex-direction: row;
-    gap: 10%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 100vh;
     margin-top: -15%;
 }
@@ -75,54 +97,38 @@ const icon4 = ref(false);
 .label {
     font-family: 'Titillium Web', sans-serif;
     font-size: 2.5rem;
-    position: absolute;
-    top: 31%;
+
+  
     height: auto;
     drop-shadow: 0px 0px 20px rgb(255, 255, 255);
 
 }
- .rec {
- left: 20%
- }
-
- .nft {
-    left: 35%;
- }
- .par {
-    left: 52%;
- }
- .anc {
-    left: 67%;
- }
+.card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgb(243, 240, 240);
+    padding: 15%;
+    text-align: center;
+    min-width: max-content;
+}
+ 
+ 
  @media screen and (max-width: 768px) {
     .main-cont {
-        flex-direction: column;
-        gap: 6%;
+   margin-top: 0%;
+    flex-direction: column;
     }
     .hover {
         display: none;
     }
     .label {
         font-size: 1.5rem;
-        left: 35%;
     }
-    .rec {
-        top: 30%;
-    }
-    .nft {
-        top: 50%;
-        left: 33%;
-    }
-    .par {
-        top: 72%;
-        left: 33%;
     
-    }
-    .anc {
-        top: 93%;
-        left: 31%;
-       
-    }
     
  }
  
