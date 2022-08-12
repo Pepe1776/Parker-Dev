@@ -24,10 +24,16 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,700;0,900;1,200;1,700&display=swap');
+
+
+ * {
+  box-sizing: border-box;
+
+ }
 .nav {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: italic;
   padding: 10px;
   position: fixed;

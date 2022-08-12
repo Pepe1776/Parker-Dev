@@ -114,7 +114,7 @@ setTimeout(() => {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: bold;
   color: #fff;
   background-color: rgba(15, 102, 137, 0.206);
