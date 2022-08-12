@@ -88,7 +88,7 @@ setTimeout(() => {
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,700;0,900;1,200;1,700&display=swap');
 
 .hero-img {
-  width: 70vw;
+  width: 100vw;
   height: auto;
   object-fit: fill;
   opacity: 0.1;
@@ -157,12 +157,12 @@ setTimeout(() => {
   border-radius: 3%;
   height: auto;
   object-fit: cover;
-  opacity: 0.8;
+  opacity: 0.5;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 60%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
@@ -195,7 +195,6 @@ setTimeout(() => {
   }
   .pop6 {
     width: 150vw;
-    border-radius: 50%;
     object-fit: none;
 
   }
