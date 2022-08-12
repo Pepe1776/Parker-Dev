@@ -195,8 +195,13 @@ setTimeout(() => {
   }
   .pop6 {
     width: 150vw;
-    border-radius: 0%;
+    border-radius: 50%;
+    object-fit: none;
 
+  }
+  .btn {
+    width: 50%;
+    font-size: 1.5rem;
   }
 }
   
