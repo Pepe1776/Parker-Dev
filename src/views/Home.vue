@@ -238,6 +238,14 @@ setTimeout(() => {
     width: 50%;
     font-size: 1.5rem;
   }
+  .footer {
+font-size: 1rem;
+bottom: -10%;
+opacity: 0.6;
+  }
+  .footer2 {
+    display: none;
+  }
 }
   
 /*
