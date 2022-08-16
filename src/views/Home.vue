@@ -102,7 +102,7 @@ setTimeout(() => {
   scroll: none;
 }
 .hero-img {
-  width: 100vw;
+  width: 90vw;
   height: auto;
   object-fit: fill;
   opacity: 0.1;
