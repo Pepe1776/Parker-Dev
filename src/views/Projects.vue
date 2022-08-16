@@ -133,7 +133,7 @@ const icon4 = ref(false);
  @media screen and (max-width: 768px) {
     .mobile {
         display: block;
-        width: 80%;
+        width: 600px;
         height: auto;
         object-fit: cover;
     }
