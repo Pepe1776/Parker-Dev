@@ -88,7 +88,7 @@ setTimeout(() => {
       </router-link>
     </transition>
     <footer>
-      <Icon class="footer2" icon="uiw:mail-o" /><a href="mailto:jparkerdevelopment@gmail.com"
+      <a href="mailto:jparkerdevelopment@gmail.com"
         class="footer">JParkerDevelopment@gmail.com</a>
     </footer>
   </div>
