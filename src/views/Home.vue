@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import { disableBodyScroll } from 'body-scroll-lock';
+import { Icon } from '@iconify/vue';
 
 const options = {
   reserveScrollBarGap: true,
@@ -82,7 +83,11 @@ setTimeout(() => {
       <img v-show="pop6" class="pop6" src="/portrait.png" />
     </transition>
     <transition name="slide-fade">
-      <router-link to="contact" v-show="pop8" class="btn" src="/portrait.png">Work With Me!</router-link>
+      <router-link to="contact" v-show="pop8" class="btn" src="/portrait.png">
+        <a href="mailto:jparkerdevelopment@gmail.com" class="btn">
+          <Icon class="icon" icon="uiw:mail-o" />
+        </a>
+      </router-link>
     </transition>
   </div>
 
@@ -177,22 +182,23 @@ setTimeout(() => {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 75%;
-  left: 53%;
+  top: 45%;
+  left: 51%;
   transform: translate(-50%, -50%);
-  background-color: #fff;
   color: #000;
   font-size: 2rem;
   font-weight: bold;
-  box-shadow: 0px 0px 10px rgba(152, 151, 151, 0.277);
   z-index: 5;
   font-family: 'Titillium Web', sans-serif;
   font-style: italic;
   transition: all 0.3s ease-in-out;
 }
+.icon {
+  font-size: 14rem;
+
+}
 .btn:hover {
-  background-color: rgb(39, 34, 34);
-  color: #fff;
+  opacity: 1;
 }
 
 @media screen and (max-width: 768px) {
