@@ -122,9 +122,9 @@ const icon4 = ref(false);
  @media screen and (max-width: 768px) {
     .main-cont {
    margin-top: 0%;
+   margin-left: 2%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  
     }
     .hover {
         display: none;
