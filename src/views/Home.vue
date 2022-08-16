@@ -84,11 +84,13 @@ setTimeout(() => {
     </transition>
     <transition name="slide-fade">
       <router-link to="contact" v-show="pop8" class="btn" src="/portrait.png">
-        <a href="mailto:jparkerdevelopment@gmail.com" class="btn">
-          <Icon class="icon" icon="uiw:mail-o" />
-        </a>
+  
       </router-link>
     </transition>
+    <footer>
+      <Icon class="footer2" icon="uiw:mail-o" /><a href="mailto:jparkerdevelopment@gmail.com"
+        class="footer">JParkerDevelopment@gmail.com</a>
+    </footer>
   </div>
 
 </template>
@@ -123,6 +125,18 @@ setTimeout(() => {
   justify-content: center;
   align-items: center;
   z-index: 11;
+}
+.footer {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  font-size: 1.5rem;
+}
+.footer2 {
+  position: absolute;
+  bottom: 3%;
+  right: 19%;
+  font-size: 2rem;
 }
 .pop1, .pop2, .pop3, .pop4, .pop5 {
   position: absolute;
@@ -182,8 +196,8 @@ setTimeout(() => {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 45%;
-  left: 51%;
+  bottom: -15%;
+  right: 10%;
   transform: translate(-50%, -50%);
   color: #000;
   font-size: 2rem;
