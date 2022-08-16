@@ -141,8 +141,8 @@ const icon4 = ref(false);
         display: none;
     }
     .main-cont {
-    margin-top: 40%;
-    margin-right: 10%;
+    margin-top: 30%;
+    margin-right: 20%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
