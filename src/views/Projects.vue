@@ -3,7 +3,7 @@
         <a @mouseenter="icon1 = true" @mouseleave="icon1 = false" href="https://bookofrecipes.netlify.app/" class="btn">
             <div class="card">
 
-                <Icon style="font-size: 6rem;" icon="emojione-v1:cooking" />
+                <Icon class="desk" style="font-size: 6rem;" icon="emojione-v1:cooking" />
                 <img src="/public/rec.jpg" alt="rec" class="mobile" />
 
                 <h3 class="label rec">Recipe App</h3>
@@ -14,7 +14,7 @@
             <div class="card">
 
 
-                <Icon style="font-size: 6rem;" icon="logos:metamask-icon" />
+                <Icon class="desk" style="font-size: 6rem;" icon="logos:metamask-icon" />
                 <img src="/public/nft.jpg" alt="nft" class="mobile" />
 
                 <h3 class="label nft">Hackathon Nft</h3>
@@ -23,21 +23,21 @@
         <a @mouseenter="icon3 = true" @mouseleave="icon3 = false" href="https://jparker.netlify.app/" class="btn">
             <div class="card">
 
-                <Icon style="font-size: 6rem;" icon="logos-vue" />
+                <Icon class="desk" style="font-size: 6rem;" icon="logos-vue" />
                 <img src="/public/jpa.jpg" alt="jparker" class="mobile" />
 
                 <h3 class="label par">Portfolio Page</h3>
             </div>
         </a>
         <a @mouseenter="icon4 = true" @mouseleave="icon4 = false" href="https://ancestral.vercel.app/" class="btn">
-        <div class="card">
+            <div class="card">
 
 
-            <Icon style="font-size: 6rem;" icon="emojione-v1:bridge-at-night" />
-            <img src="/public/anc.jpg" alt="anc" class="mobile" />
+                <Icon class="desk" style="font-size: 6rem;" icon="emojione-v1:bridge-at-night" />
+                <img src="/public/anc.jpg" alt="anc" class="mobile" />
 
-            <h3 class="label anc">Restaurant Page</h3>
-        </div>
+                <h3 class="label anc">Restaurant Page</h3>
+            </div>
         </a>
 
 
@@ -125,6 +125,9 @@ const icon4 = ref(false);
 .mobile {
     display: none;
 }
+.desk {
+    display: block;
+}
  
  
  @media screen and (max-width: 768px) {
@@ -133,6 +136,9 @@ const icon4 = ref(false);
         width: 80%;
         height: auto;
         object-fit: cover;
+    }
+    .desk {
+        display: none;
     }
     .main-cont {
    margin-top: 0%;
