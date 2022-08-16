@@ -122,7 +122,7 @@ const icon4 = ref(false);
  @media screen and (max-width: 768px) {
     .main-cont {
    margin-top: 0%;
-   margin-left: 2%;
+   margin-left: 5%;
     flex-direction: column;
   
     }
