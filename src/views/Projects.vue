@@ -58,14 +58,8 @@
 <script setup>
 import { Icon } from '@iconify/vue';
 import { ref } from 'vue';
-import { enableBodyScroll } from 'body-scroll-lock';
 
-const main2 = document.querySelector('.main-cont');
-const options = {
-    reserveScrollBarGap: true,
-};
 
-enableBodyScroll(main2, options);
 
 const icon1 = ref(false);
 const icon2 = ref(false);
@@ -129,6 +123,8 @@ const icon4 = ref(false);
     .main-cont {
    margin-top: 0%;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
     .hover {
         display: none;
