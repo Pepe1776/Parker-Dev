@@ -1,5 +1,5 @@
 <template>
-    <div class="main-cont" v-scroll-lock="open">
+    <div class="main-cont" >
         <a @mouseenter="icon1 = true" @mouseleave="icon1 = false" href="https://bookofrecipes.netlify.app/" class="btn">
             <div class="card">
 
@@ -133,7 +133,7 @@ const icon4 = ref(false);
  @media screen and (max-width: 768px) {
     .mobile {
         display: block;
-        width: 600px;
+        width: 400px;
         height: auto;
         object-fit: cover;
     }
