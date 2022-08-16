@@ -133,7 +133,7 @@ const icon4 = ref(false);
         font-size: 1.5rem;
     }
     .card {
-        margin-right: 10%;
+        margin-right: 20%;
     }
     
     
