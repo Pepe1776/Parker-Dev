@@ -143,6 +143,8 @@ const icon4 = ref(false);
     .main-cont {
         inset: 0;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   
     }
     .hover {
