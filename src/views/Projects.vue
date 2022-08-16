@@ -133,7 +133,7 @@ const icon4 = ref(false);
  @media screen and (max-width: 768px) {
     .mobile {
         display: block;
-        width: 400px;
+        width: 80%vw;
         height: auto;
         object-fit: cover;
     }
@@ -141,8 +141,7 @@ const icon4 = ref(false);
         display: none;
     }
     .main-cont {
-   margin-top: 0%;
-
+        inset: 0;
     flex-direction: column;
   
     }
