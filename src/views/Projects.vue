@@ -3,7 +3,7 @@
         <a @mouseenter="icon1 = true" @mouseleave="icon1 = false" href="https://bookofrecipes.netlify.app/" class="btn">
             <div class="card">
 
-                <Icon style="font-size: 7rem;" icon="emojione-v1:cooking" />
+                <Icon style="font-size: 6rem;" icon="emojione-v1:cooking" />
 
                 <h3 class="label rec">Recipe App</h3>
             </div>
@@ -13,7 +13,7 @@
             <div class="card">
 
 
-                <Icon style="font-size: 7rem;" icon="logos:metamask-icon" />
+                <Icon style="font-size: 6rem;" icon="logos:metamask-icon" />
 
                 <h3 class="label nft">Hackathon Nft</h3>
             </div>
@@ -21,7 +21,7 @@
         <a @mouseenter="icon3 = true" @mouseleave="icon3 = false" href="https://jparker.netlify.app/" class="btn">
             <div class="card">
 
-                <Icon style="font-size: 7rem;" icon="logos-vue" />
+                <Icon style="font-size: 6rem;" icon="logos-vue" />
 
                 <h3 class="label par">Portfolio Page</h3>
             </div>
@@ -30,7 +30,7 @@
         <div class="card">
 
 
-            <Icon style="font-size: 7rem;" icon="emojione-v1:bridge-at-night" />
+            <Icon style="font-size: 6rem;" icon="emojione-v1:bridge-at-night" />
 
             <h3 class="label anc">Restaurant Page</h3>
         </div>
