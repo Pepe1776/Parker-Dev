@@ -4,6 +4,7 @@
             <div class="card">
 
                 <Icon style="font-size: 6rem;" icon="emojione-v1:cooking" />
+                <img src="/public/rec.jpg" alt="rec" class="mobile" />
 
                 <h3 class="label rec">Recipe App</h3>
             </div>
@@ -14,6 +15,7 @@
 
 
                 <Icon style="font-size: 6rem;" icon="logos:metamask-icon" />
+                <img src="/public/nft.jpg" alt="nft" class="mobile" />
 
                 <h3 class="label nft">Hackathon Nft</h3>
             </div>
@@ -22,6 +24,7 @@
             <div class="card">
 
                 <Icon style="font-size: 6rem;" icon="logos-vue" />
+                <img src="/public/jpa.jpg" alt="jparker" class="mobile" />
 
                 <h3 class="label par">Portfolio Page</h3>
             </div>
@@ -31,6 +34,7 @@
 
 
             <Icon style="font-size: 6rem;" icon="emojione-v1:bridge-at-night" />
+            <img src="/public/anc.jpg" alt="anc" class="mobile" />
 
             <h3 class="label anc">Restaurant Page</h3>
         </div>
@@ -65,6 +69,7 @@ const icon1 = ref(false);
 const icon2 = ref(false);
 const icon3 = ref(false);
 const icon4 = ref(false);
+
 </script>
 
 <style scoped>
@@ -117,9 +122,18 @@ const icon4 = ref(false);
     text-align: center;
     min-width: max-content;
 }
+.mobile {
+    display: none;
+}
  
  
  @media screen and (max-width: 768px) {
+    .mobile {
+        display: block;
+        width: 80%;
+        height: auto;
+        object-fit: cover;
+    }
     .main-cont {
    margin-top: 0%;
 
