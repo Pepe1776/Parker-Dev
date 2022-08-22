@@ -34,5 +34,20 @@
     img {
         box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
     }
+    @media (max-width: 768px) {
+     .main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin-bottom: 5%;
+     }
+     img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 40%;
+     }
+    }
     
 </style>
