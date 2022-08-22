@@ -41,7 +41,7 @@
         align-items: center;
         justify-content: center;
         height: 70vh;
-        margin-top: 85%;
+        margin-top: 185%;
       
      }
      img {
