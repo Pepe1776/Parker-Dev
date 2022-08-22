@@ -34,6 +34,8 @@
     }
     img {
         box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+        height: 70vh;
+        
     }
     @media (max-width: 768px) {
      .main {
