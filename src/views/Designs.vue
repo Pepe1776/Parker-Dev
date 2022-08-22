@@ -39,14 +39,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
-        margin-bottom: 5%;
+      
      }
      img {
-        width: 100%;
+        width: 70%;
         height: auto;
         object-fit: contain;
-        border-radius: 40%;
+
      }
     }
     
