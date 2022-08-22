@@ -70,7 +70,7 @@ setTimeout(() => {
 <template>
   <div class="main-cont" v-scroll-lock="closed">
     <transition name="slide-fade">
-      <img v-show="pop7" class="hero-img" src="~/Satoshi-logo.png" alt="satoshi">
+      <img v-show="pop7" class="hero-img" src="../../public/Satoshi-logo.png" alt="satoshi">
     </transition>
     <transition name="slide-fade">
       <div v-show="pop1" class="pop1">Custom Built Website and Apps</div>
@@ -88,14 +88,14 @@ setTimeout(() => {
       <div v-show="pop5" class="pop5">Custom Built Drivers (Control4)</div>
     </transition>
     <transition name="slide-fade">
-      <img v-show="pop6" class="pop6" src="~/justin.png" />
+      <img v-show="pop6" class="pop6" src="../../public/Justin.png" />
     </transition>
-    <transition name="slide-fade">
+    <!-- <transition name="slide-fade">
       <router-link to="contact" v-show="pop8" class="btn" src="/portrait.png">
       </router-link>
-    </transition>
+    </transition> -->
     <transition name="slide-fade">
-      <img v-show="pop9" class="hero-img2" src="~/justin.png" />
+      <img v-show="pop9" class="hero-img2" src="../../public/Justin.png" />
     </transition>
     <transition name="slide-fade">
       <router-link to="contact" class="btn" v-show="pop0">Let's Work Together!</router-link>
