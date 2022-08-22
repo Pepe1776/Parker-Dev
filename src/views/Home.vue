@@ -72,7 +72,6 @@ setTimeout(() => {
     <transition name="slide-fade">
       <img v-show="pop7" class="hero-img" src="/Satoshi-logo.png" alt="satoshi">
     </transition>
-
     <transition name="slide-fade">
       <div v-show="pop1" class="pop1">Custom Built Website and Apps</div>
     </transition>
@@ -93,9 +92,14 @@ setTimeout(() => {
     </transition>
     <transition name="slide-fade">
       <router-link to="contact" v-show="pop8" class="btn" src="/portrait.png">
-  
       </router-link>
     </transition>
+    <transition name="slide-fade">
+      <img v-show="pop9" class="hero-img2" src="/justin.png" />
+    </transition>
+    <transition name="slide-fade">
+      <router-link to="contact" class="btn" v-show="pop0">Let's Work Together!</router-link>
+      </transition>
     <footer>
       <a href="mailto:jparkerdevelopment@gmail.com"
         class="footer">JParkerDevelopment@gmail.com</a>
@@ -118,10 +122,17 @@ setTimeout(() => {
   scroll: none;
 }
 .hero-img {
-  width: 70vw;
+  width: 60vw;
   height: auto;
   object-fit: fill;
   opacity: 0.1;
+}
+.hero-img2 {
+  width: 60vw;
+  height: auto;
+  object-fit: fill;
+  opacity: 0.1;
+  border-radius: 50%;
 }
 .main-cont {
   height: 100vh;
@@ -196,7 +207,7 @@ setTimeout(() => {
   border-radius: 50%;
 }
 .btn {
-  width: 15%;
+  width: 35%;
   border-radius: 3%;
   height: auto;
   object-fit: cover;
@@ -205,11 +216,11 @@ setTimeout(() => {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: -15%;
-  right: 10%;
+  bottom: 40%;
+  right:15%;
   transform: translate(-50%, -50%);
   color: #000;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
   z-index: 5;
   font-family: 'Titillium Web', sans-serif;
