@@ -22,6 +22,7 @@
         justify-content: space-evenly;
         align-items: center;
         height: 70vh;
+        margin-top: 5%;
         margin-bottom: 5%;
     }
     .ii {
@@ -40,7 +41,7 @@
         align-items: center;
         justify-content: center;
         height: 100vh;
-        margin-top: 25%;
+        margin-top: 85%;
       
      }
      img {
