@@ -2,7 +2,7 @@
 <div class="main">
     <img src="../../public/121212.png" alt="logo" class="img-fluid ii">
     <img src="../../public/unnamed7.png" alt="logo" class="img-fluid ii">
-    <img src="../../public/satoshi-logo-bw.png" alt="logo" class="img-fluid ii">
+    <img src="../../public/satoshi-logo.png" alt="logo" class="img-fluid ii">
     <img src="../../public/satoshi-logo.png" alt="logo" class="img-fluid ii">
 </div>
     <div class="main">

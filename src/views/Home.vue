@@ -236,12 +236,12 @@ setTimeout(() => {
 }
 
 @media screen and (max-width: 768px) {
-  .hero-img {
+  /* .hero-img {
     object-fit: cover;
     width: 100vw;
     height: 100vh;
     margin-top: -20%;
-  }
+  } */
 
   .pop1, .pop2, .pop3, .pop4, .pop5 {
     font-size: 1.8rem;
