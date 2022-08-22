@@ -1,10 +1,10 @@
 <template>
-<div class="main">
+<!-- <div class="main">
     <img src="../../public/121212.png" alt="logo" class="img-fluid ii">
     <img src="../../public/unnamed7.png" alt="logo" class="img-fluid ii">
     <img src="../../public/satoshi-logo.png" alt="logo" class="img-fluid ii">
     <img src="../../public/satoshi-logo.png" alt="logo" class="img-fluid ii">
-</div>
+</div> -->
     <div class="main">
         <img src="../../public/mondo.png" class="img-fluid" alt="" title="Mobile" text="ui design" />
         <img src="../../public/mondo-cart.png" class="img-fluid" alt="" title="Mobile" text="ui design" />
