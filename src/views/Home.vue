@@ -1,7 +1,6 @@
 <script setup>
 import { ref } from 'vue';
 import { disableBodyScroll } from 'body-scroll-lock';
-import { Icon } from '@iconify/vue';
 
 const options = {
   reserveScrollBarGap: true,
@@ -74,7 +73,7 @@ setTimeout(() => {
       <img v-show="pop7" class="hero-img" src="/Satoshi-logo-bw.png" alt="satoshi">
     </transition>
     <transition name="slide-fade">
-      <img v-show="pop9" class="hero-img" src="/satoshi-logo-300.png" alt="satoshi">
+      <img v-show="pop9" class="hero-img" src="/satoshi-logo.png" alt="satoshi">
     </transition>
     <transition name="slide-fade">
       <img v-show="pop0" class="hero-img" src="/satoshi-logo.png" alt="satoshi">
