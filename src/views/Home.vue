@@ -70,14 +70,9 @@ setTimeout(() => {
 <template>
   <div class="main-cont" v-scroll-lock="closed">
     <transition name="slide-fade">
-      <img v-show="pop7" class="hero-img" src="/Satoshi-logo-bw.png" alt="satoshi">
+      <img v-show="pop7" class="hero-img" src="/Satoshi-logo.png" alt="satoshi">
     </transition>
-    <transition name="slide-fade">
-      <img v-show="pop9" class="hero-img" src="/satoshi-logo.png" alt="satoshi">
-    </transition>
-    <transition name="slide-fade">
-      <img v-show="pop0" class="hero-img" src="/satoshi-logo.png" alt="satoshi">
-    </transition>
+
     <transition name="slide-fade">
       <div v-show="pop1" class="pop1">Custom Built Website and Apps</div>
     </transition>
@@ -123,7 +118,7 @@ setTimeout(() => {
   scroll: none;
 }
 .hero-img {
-  width: 90vw;
+  width: 70vw;
   height: auto;
   object-fit: fill;
   opacity: 0.1;
