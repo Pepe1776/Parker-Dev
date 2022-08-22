@@ -256,7 +256,7 @@ setTimeout(() => {
   }
   .btn {
     width: 50%;
-    right: 5%;
+    right: 2%;
     font-size: 1.5rem;
   }
   .footer {
