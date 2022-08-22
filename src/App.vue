@@ -7,9 +7,8 @@
     <header class="bg-white shadow" v-if="$route.meta.title">
       <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <h1 class="nav text-3xl font-bold leading-tight text-gray-600">
-          <router-link to="/">{{ $route.meta.title }}</router-link> | <router-link to="projects">Projects</router-link>
-          |
-          <router-link to="contact">Contact Me</router-link>
+          <router-link to="/">{{ $route.meta.title }}</router-link> | <router-link to="projects">Projects</router-link> | <router-link to="designs">Designs</router-link> | <router-link to="contact">Contact</router-link>
+          
 
         </h1>
       </div>

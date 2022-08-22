@@ -1,12 +1,14 @@
 import Home from './views/Home.vue'
 import Contact from './views/Contact.vue'
 import Projects from './views/Projects.vue'
+import Designs from './views/Designs.vue'
 import NotFound from './views/NotFound.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
   { path: '/', component: Home, meta: { title: 'Justin Parker' } },
   { path: '/projects' , component: Projects, meta: { title: 'Back Home' } },
+  { path: '/designs' , component: Designs, meta: { title: 'Back Home' } },
   {
     path: '/contact',
     meta: { title: 'Back Home' },
