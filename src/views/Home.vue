@@ -19,6 +19,8 @@ const pop5 = ref(false);
 const pop6 = ref(false);
 const pop7 = ref(false);
 const pop8 = ref(false);
+const pop9 = ref(false);
+const pop0 = ref(false);
 
 setTimeout(() => {
   pop7.value = false;
@@ -55,6 +57,13 @@ setTimeout(() => {
   pop5.value = false;
   pop8.value = true;
 }, 8000);
+setTimeout(() => {
+  pop8.value = false;
+  pop9.value = true;
+}, 10000);
+setTimeout(() => {
+  pop0.value = true;
+}, 13000);
 
 
 </script>
@@ -63,6 +72,12 @@ setTimeout(() => {
   <div class="main-cont" v-scroll-lock="closed">
     <transition name="slide-fade">
       <img v-show="pop7" class="hero-img" src="/Satoshi-logo-bw.png" alt="satoshi">
+    </transition>
+    <transition name="slide-fade">
+      <img v-show="pop9" class="hero-img" src="/satoshi-logo-300.png" alt="satoshi">
+    </transition>
+    <transition name="slide-fade">
+      <img v-show="pop0" class="hero-img" src="/satoshi-logo.png" alt="satoshi">
     </transition>
     <transition name="slide-fade">
       <div v-show="pop1" class="pop1">Custom Built Website and Apps</div>
@@ -80,7 +95,7 @@ setTimeout(() => {
       <div v-show="pop5" class="pop5">Custom Built Drivers (Control4)</div>
     </transition>
     <transition name="slide-fade">
-      <img v-show="pop6" class="pop6" src="/portrait.png" />
+      <img v-show="pop6" class="pop6" src="/justin.png" />
     </transition>
     <transition name="slide-fade">
       <router-link to="contact" v-show="pop8" class="btn" src="/portrait.png">
