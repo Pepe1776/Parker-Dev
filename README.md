@@ -1,3 +1,7 @@
+JParker Dev Portfolio Site built using a vue3 template of dependancies installed to help the setup process being quicker handling those tasks. 
+
+
+
 # Vite, Vue3, Tailwind CSS (single-page app)
 
 ![Vite, Vue, Tailwind CSS](https://user-images.githubusercontent.com/11320080/111277027-a9384c00-8640-11eb-8323-21889bd7c609.png)
