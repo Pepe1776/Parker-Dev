@@ -118,6 +118,7 @@ setTimeout(() => {
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,700;0,900;1,200;1,700&display=swap');
 
 * {
+  background-color: #000;
   box-sizing: border-box;
   scroll: none;
 }
@@ -145,6 +146,7 @@ setTimeout(() => {
   justify-content: center;
   align-items: center;
   z-index: 11;
+  background-color: #000;
 }
 .footer {
   position: absolute;

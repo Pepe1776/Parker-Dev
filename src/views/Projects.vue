@@ -81,6 +81,7 @@ const icon4 = ref(false);
     justify-content: space-evenly;
     height: 100vh;
     margin-top: -15%;
+    background-color: #000;
 }
 .btn {
     z-index: 4;
