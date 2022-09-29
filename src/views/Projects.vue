@@ -77,10 +77,10 @@ const icon4 = ref(false);
 .main-cont {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     height: 100vh;
-    margin-top: -15%;
+    margin-top: %;
     background-color: #000;
 }
 .btn {
@@ -105,7 +105,7 @@ const icon4 = ref(false);
 .label {
     font-family: 'Titillium Web', sans-serif;
     font-size: 2.5rem;
-
+    color: rgb(105, 103, 103);
   
     height: auto;
     drop-shadow: 0px 0px 20px rgb(255, 255, 255);
@@ -113,7 +113,7 @@ const icon4 = ref(false);
 }
 .card {
     width: 100%;
-    height: auto;
+    height: 200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -122,6 +122,7 @@ const icon4 = ref(false);
     padding: 15%;
     text-align: center;
     min-width: max-content;
+    margin-top: 15%;
 }
 .mobile {
     display: none;

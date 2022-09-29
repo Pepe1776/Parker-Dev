@@ -221,7 +221,7 @@ setTimeout(() => {
   bottom: 40%;
   right:15%;
   transform: translate(-50%, -50%);
-  color: #000;
+  color: rgb(105, 103, 103);
   font-size: 4rem;
   font-weight: bold;
   z-index: 5;

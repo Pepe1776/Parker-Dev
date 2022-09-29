@@ -6,16 +6,16 @@ import { Icon } from '@iconify/vue';
   <div class="main">
     <h2 class="title">Want to Connect?</h2>
     <a href="mailto:jparkerdevelopment@gmail.com" class="btn">
-      <Icon style="font-size: 6rem; color: black;" icon="uiw:mail-o" />
+      <Icon style="font-size: 6rem; color: rgb(105, 103, 103);" icon="uiw:mail-o" />
     </a>
     <a href="https://www.linkedin.com/in/james-parker-developer/" class="btn btn3">
-      <Icon style="font-size: 4rem; color: black;" icon="logos:linkedin" />
+      <Icon style="font-size: 4rem; color: rgb(105, 103, 103);" icon="logos:linkedin" />
     </a>
     <a href="https://github.com/Pepe1776" class="btn btn2">
-      <Icon style="font-size: 6rem; color: black;" icon="logos:github-icon" />
+      <Icon style="font-size: 6rem; color: rgb(105, 103, 103);" icon="logos:github-icon" />
       </a>
       <a href="https://www.instagram.com/j_not_query/" class="btn btn4">
-      <Icon style="font-size: 5rem; color: black;" icon="logos:instagram" />
+      <Icon style="font-size: 5rem; color: rgb(105, 103, 103);" icon="logos:instagram" />
       </a>
   </div>
 </template>
@@ -34,7 +34,7 @@ import { Icon } from '@iconify/vue';
       margin-top: 3%;
  }
   .btn {
-        
+        color: rgb(105, 103, 103);
         z-index: 4;
         position: absolute;
         top: 30%;

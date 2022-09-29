@@ -24,6 +24,7 @@
         height: 70vh;
         margin-top: 5%;
         margin-bottom: 5%;
+        background-color: #000;
     }
     .ii {
         width: 20%;
