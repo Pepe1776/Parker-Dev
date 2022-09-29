@@ -208,6 +208,7 @@ setTimeout(() => {
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
+ 
 .btn {
   width: 35%;
   border-radius: 3%;
@@ -228,6 +229,7 @@ setTimeout(() => {
   font-family: 'Titillium Web', sans-serif;
   font-style: italic;
   transition: all 0.3s ease-in-out;
+  background-color: transparent;  
 }
 .icon {
   font-size: 14rem;
